@@ -1,2 +1,2 @@
 # Pine
-Chinese pine TE annotation 
+scripts for pine TE annotation 
