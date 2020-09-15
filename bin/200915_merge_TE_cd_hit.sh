@@ -9,7 +9,7 @@
 #SBATCH --mail-user=yanjunzan@slu.se
 module load bioinfo-tools cd-hit
 fasta="/home/yanjun/wm/umea/TE/data/TE_merged.fa"
-out="/home/yanjun/wm/umea/TE/results/TE_output"
+out="/home/yanjun/wm/umea/TE/results/TE_output_0.8.fa"
 ref="/home/yanjun/wm/umea/TE/data/ref/ys.pilon2.fa"
 # first index the ref
-cd-hit-est -i $fasta -o $out -M 22000 -T 4 -mask NX
+cd-hit-est -i $fasta -o $out -M 22000 -T 4 -mask NX -c 0.8
