@@ -8,6 +8,8 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=yanjunzan@slu.se
 wget https://treegenesdb.org/FTP/Genomes/Pita/v1.01/genome/Pita.1_01.fa.gz
-wget https://treegenesdb.org/FTP/Genomes/Psme/v1.0/genome/Psme.1_0.fa.gz
+#wget https://treegenesdb.org/FTP/Genomes/Psme/v1.0/genome/Psme.1_0.fa.gz
+wget https://treegenesdb.org/FTP/Genomes/Pila/v1.0/genome/Pila.1_0.fa.gz
 wget https://treegenesdb.org/FTP/Genomes/Pita/v1.01/annotation/pita.repeats.final1000.gff.gz
 wget https://treegenesdb.org/FTP/Genomes/Pila/v1.0/annotation/pila.repeats.final1000.gff3.gz
+ls | grep "gz" |while read var;do gunzip $var;done
