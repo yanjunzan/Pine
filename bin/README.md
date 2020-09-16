@@ -1,2 +1,2 @@
 # Pine
-scripts for pine TE annotation 
+Scripts for pine TE annotation 
