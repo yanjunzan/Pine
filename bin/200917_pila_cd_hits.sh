@@ -11,4 +11,4 @@ module load bioinfo-tools cd-hit
 fasta="/home/yanjun/wm/umea/TE/results/Pila.1_0_repeats_5_10k.fa"
 out="/home/yanjun/wm/umea/TE/results/Pila.1_0_repeats_5_10k_reduced.fa"
 # first index the ref
-cd-hit-est -i $fasta -o $out -M 22000 -T 4 -mask NX -c 0.8
+cd-hit-est -i $fasta -o $out -M 35000 -T 6 -mask NX -c 0.8
