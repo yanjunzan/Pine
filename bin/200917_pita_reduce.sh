@@ -12,4 +12,4 @@ fasta="/home/yanjun/wm/umea/TE/results/Pita.1_01_repeats_5_10k.fa"
 out="/home/yanjun/wm/umea/TE/results/Pita.1_01_repeats_5_10k_reduced.fa"
 #ref="/home/yanjun/wm/umea/TE/data/ref/ys.pilon2.fa"
 # first index the ref
-cd-hit-est -i $fasta -o $out -M 22000 -T 4 -mask NX -c 0.8
+cd-hit-est -i $fasta -o $out -M 22000 -T 6 -mask NX -c 0.8

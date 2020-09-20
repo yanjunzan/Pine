@@ -16,3 +16,4 @@ gff2="/home/yanjun/wm/umea/TE/data/pita.repeats.final1000.gff"
 fo1="/home/yanjun/wm/umea/TE/results/Pila.1_0_repeats.fa"
 fo2="/home/yanjun/wm/umea/TE/results/Pita.1_01_repeats.fa"
 bedtools getfasta  -fi $ref1 -bed $gff1 -fo $fo1
+bedtools getfasta  -fi $ref2 -bed $gff2 -fo $fo2
