@@ -8,7 +8,7 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=yanjunzan@slu.se
 module load bioinfo-tools cd-hit
-fasta="/home/yanjun/wm/umea/TE/data/TE_ad_pita.fa"
+fasta="/home/yanjun/wm/umea/TE/results/TE_ad_pita.fa"
 out="/home/yanjun/wm/umea/TE/results/TE_ad_pita_reduced_0.8.fa"
 # first index the ref
 cd-hit-est -i $fasta -o $out -M 22000 -T 4 -mask NX -c 0.8
